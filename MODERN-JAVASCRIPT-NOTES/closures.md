@@ -1,11 +1,11 @@
 # Closures in JavaScript
 
 ```JavaScript
-    function sayWord (word) {
-        return () => console.log(word);
-    }
-    const sayHello = sayWord('hello');
-    sayHello(); // hello
+function sayWord (word) {
+    return () => console.log(word);
+}
+const sayHello = sayWord('hello');
+sayHello(); // hello
 ```
 
 There's `two` interesting point to notice:
@@ -28,50 +28,57 @@ __`Lexical Scope:`__ The returned function can access word before it exists in i
 
 **`Callbacks:`**  It is common for a callback to reference a variable declared outside of itself.<br>
 E.g. 
+
 ```JavaScript
-    function getCarsByMake(make) {
-        return cars.filter(x => x.make == make);
-    }
+const cars = function getCarsByMake(make) {
+    return cars.filter(x => x.make == make);
+}
 ```
 make is available in callback becase of lexical scoping and make is persisted when filter called because of closure.
 
 **`Storing State:`** We can use closures from functions that store states.
 Let's say a function which returns an object that can store and change name.
-```JavaScript
-    function makePerson(name) {
-        let _name = name;
-        return {
-            setName: (newName) => (_name = newName);
-            getName: () => _name, 
-        };
-    }
-    const me = make Person ("deepa");
-    console.log(me.getName()); // deepa
 
-    me.setName("partha");
-    console.log(me.getName()); // partha
+```JavaScript
+function makePerson(name) {
+    let _name = name;
+    return {
+        setName: (newName) => (_name = newName),
+        getName: () => _name
+    };
+}
+const me = makePerson ("deepa");
+console.log(me.getName()); // deepa
+
+me.setName("partha");
+console.log(me.getName()); // partha
 ```
+
 It shows how closure don't freeze values of variables from function's outer scope during creation. Instead they maintain the references throughout closure's lifetime.
 
 ## Private Methods
 So In oops concept, In a class we have private state and expose getter and setter methods public. <br>
 We can extend this oops 
+
 ```JavaScript
-    function makePerson(name) {
-        let _name = name;
-        function privateSetName(newName) {
-            _name = newName;
-        }
-        return {
-            setName: (newName) => privateSetName(newName);
-            getName: () => _name,
-        };
+function makePerson(name) {
+    let _name = name;
+    function privateSetName(newName) {
+        _name = newName;
     }
+    return {
+        setName: (newName) => privateSetName(newName),
+        getName: () => _name
+    };
+}
 ```
+
 privateSetName is not directly accessible to consumers and it can access the private state variable _name through closure.
 
 ## Closures make it possible for:
-* functions to maintain connections with outer variables, even outside scope of the variables.<br>
+
+* functions to maintain connections with outer variables, even outside scope of the variables.
 (like LinkedIn maybe:)<br>
+
 * There are many uses of closures from creating class like structures that store state and implement private methods to passing callback to event handless.
 
