@@ -13,14 +13,14 @@ You can practice according to the __table__, It will be easier to find, understa
 
 | Serial No | Markdown | Original |
 |  :---:    |   :---:  |   :---:  |
-| 00 | `none` | [`advance_javascript_notes`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/Advance_javascript_notes.pdf "All handwritten files are included here") |
-| 01 | [`variables`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/MODERN-JAVASCRIPT-NOTES/variables.md) | [`varlet_compressed`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/varlet_compressed.pdf) |
-| 02 | [`hoisting`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/MODERN-JAVASCRIPT-NOTES/hoisting.md) | [`hoisting_compressed`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/hoisting_compressed.pdf) |
-| 03 | [`closures`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/MODERN-JAVASCRIPT-NOTES/closures.md) | [`closures_compressed`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/closures_compressed.pdf) |
-| 04 | [`object-methods`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/MODERN-JAVASCRIPT-NOTES/object-methods.md) | [`Object_methods_compressed`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/Object_methods_compressed.pdf) |
-| 05 | [`functions`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/MODERN-JAVASCRIPT-NOTES/functions.md) | [`js-important-functions(1)_compressed`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/js-important-functions%20(1)_compressed.pdf) |
-| 06 | [`destructuring`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/MODERN-JAVASCRIPT-NOTES/destructuring.md) | [`destructuring-in-js_compressed`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/destructuring%20in%20js_compressed.pdf) |
-| 07 | [`async-vs-sync`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/MODERN-JAVASCRIPT-NOTES/async-vs-sync.md) | [`asyncVssync_compressed`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/asyncVssync_compressed.pdf) |
-| 08 | [`promises`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/MODERN-JAVASCRIPT-NOTES/promises.md) | [`promises_compressed`](https://github.com/crescentpartha/JAVASCRIPT_NOTES/blob/main/promises_compressed.pdf) |
+| 00 | `none` | [`advance_javascript_notes`](./Advance_javascript_notes.pdf "All handwritten files are included here") |
+| 01 | [`variables`](./MODERN-JAVASCRIPT-NOTES/variables.md) | [`varlet_compressed`](./varlet_compressed.pdf) |
+| 02 | [`hoisting`](./MODERN-JAVASCRIPT-NOTES/hoisting.md) | [`hoisting_compressed`](./hoisting_compressed.pdf) |
+| 03 | [`closures`](./MODERN-JAVASCRIPT-NOTES/closures.md) | [`closures_compressed`](./closures_compressed.pdf) |
+| 04 | [`object-methods`](./MODERN-JAVASCRIPT-NOTES/object-methods.md) | [`Object_methods_compressed`](./Object_methods_compressed.pdf) |
+| 05 | [`functions`](./MODERN-JAVASCRIPT-NOTES/functions.md) | [`js-important-functions(1)_compressed`](./js-important-functions%20(1)_compressed.pdf) |
+| 06 | [`destructuring`](./MODERN-JAVASCRIPT-NOTES/destructuring.md) | [`destructuring-in-js_compressed`](./destructuring%20in%20js_compressed.pdf) |
+| 07 | [`async-vs-sync`](./MODERN-JAVASCRIPT-NOTES/async-vs-sync.md) | [`asyncVssync_compressed`](./asyncVssync_compressed.pdf) |
+| 08 | [`promises`](./MODERN-JAVASCRIPT-NOTES/promises.md) | [`promises_compressed`](./promises_compressed.pdf) |
 
 
