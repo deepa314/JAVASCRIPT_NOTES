@@ -22,5 +22,8 @@ You can practice according to the __table__, It will be easier to find, understa
 | 06 | [`destructuring`](./MODERN-JAVASCRIPT-NOTES/destructuring.md) | [`destructuring-in-js_compressed`](./destructuring%20in%20js_compressed.pdf) |
 | 07 | [`async-vs-sync`](./MODERN-JAVASCRIPT-NOTES/async-vs-sync.md) | [`asyncVssync_compressed`](./asyncVssync_compressed.pdf) |
 | 08 | [`promises`](./MODERN-JAVASCRIPT-NOTES/promises.md) | [`promises_compressed`](./promises_compressed.pdf) |
+| 09 | [`this-notes`](./MODERN-JAVASCRIPT-NOTES/this-notes.md) | [`js_this_notes_compressed`](./js_this_notes_compressed.pdf) |
+| 10 | [`executionContext-callstack`](./MODERN-JAVASCRIPT-NOTES/executionContext-callstack.md) | [`executioncontext_callstack_js_compressed`](./executioncontext_callstack_js_compressed.pdf) |
+
 
 
